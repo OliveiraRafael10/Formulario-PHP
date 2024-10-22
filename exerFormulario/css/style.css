@@ -1,0 +1,38 @@
+body{
+    margin: 50px;
+    background-color: #243757;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    width: 780px;
+    background-color: #ffffff;
+    border-radius: 10px;
+
+    .radio-option, .select-color, .area-text, .dados-pessoais, .check-box{
+        margin-top: 30px;
+    }
+
+    .select-option{
+        width: 130px;
+        height: 30px;
+        border-radius: 5px;
+        margin-left: 50px;
+    }
+    .area-text{
+        #textArea{
+            border-radius: 5px;
+        }
+    }
+    .dados-pessoais{
+        #email, #nome{
+            width: 400px;
+        } 
+        label, input{
+            margin: 5px;
+        }
+    }
+}
